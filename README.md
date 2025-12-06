@@ -4,3 +4,4 @@ Advent of Code 2025, each day in different programming language. Wont ever be fi
 
 - Day 01: Dart
 - Day 02: Rust
+- Day 03: Kotlin
