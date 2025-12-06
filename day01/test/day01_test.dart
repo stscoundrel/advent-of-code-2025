@@ -1,7 +1,7 @@
 import 'package:day01/day01.dart';
 import 'package:test/test.dart';
 
-final List<String> part1TestInput = [
+final List<String> partTestInput = [
   "L68",
   "L30",
   "R48",
@@ -16,6 +16,10 @@ final List<String> part1TestInput = [
 
 void main() {
   test('part1', () {
-    expect(solvePart1(part1TestInput), 3);
+    expect(solvePart1(partTestInput), 3);
+  });
+
+  test('part2', () {
+    expect(solvePart2(partTestInput), 6);
   });
 }

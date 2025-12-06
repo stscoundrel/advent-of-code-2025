@@ -8,8 +8,13 @@ Future<List<String>> readLines() async {
 }
 
 void main(List<String> arguments) async {
-  int result1 = solvePart1(await readLines());
+  List<String> lines = await readLines();
+  int result1 = solvePart1(lines);
+  int result2 = solvePart2(lines);
 
   print("Part 1:");
-  print(result1);
+  print(result1); // 1074
+
+  print("Part 2:");
+  print(result2); // 6254
 }
